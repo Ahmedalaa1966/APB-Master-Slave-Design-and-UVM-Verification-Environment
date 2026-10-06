@@ -1,0 +1,162 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /apb_env_pkg
+=== Design Unit: work.apb_env_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    56.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         17        10         7    58.82%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /apb_env_pkg/apb_coverage/apb_cg                 56.00%        100          -    Uncovered            
+    covered/total bins:                                    10         17          -                      
+    missing/total bins:                                     7         17          -                      
+    % Hit:                                             58.82%        100          -                      
+    Coverpoint cp_op                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_addr                                 80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+    Coverpoint cp_wdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+    Coverpoint cp_rdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+    Coverpoint cp_order_operation                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/apb_env_pkg::apb_coverage::apb_cg  
+                                                       56.00%        100          -    Uncovered            
+    covered/total bins:                                    10         17          -                      
+    missing/total bins:                                     7         17          -                      
+    % Hit:                                             58.82%        100          -                      
+    Coverpoint cp_op                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write                                         164          1          -    Covered              
+        bin read                                          164          1          -    Covered              
+    Coverpoint cp_addr                                 80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin First_address                                   2          1          -    Covered              
+        bin Low_address                                    68          1          -    Covered              
+        bin Medium_address                                154          1          -    Covered              
+        bin High_address                                  104          1          -    Covered              
+        bin Last_address                                    0          1          -    ZERO                 
+    Coverpoint cp_wdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin all_zeros                                       0          1          -    ZERO                 
+        bin all_ones                                        0          1          -    ZERO                 
+        bin alt_AA                                          0          1          -    ZERO                 
+        bin alt_55                                          0          1          -    ZERO                 
+        default bin others                                164                     -    Occurred             
+    Coverpoint cp_rdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin all_zeros                                       0          1          -    ZERO                 
+        bin all_ones                                        0          1          -    ZERO                 
+        default bin others                                164                     -    Occurred             
+    Coverpoint cp_order_operation                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin wr_to_rd                                      101          1          -    Covered              
+        bin rd_to_wr                                       99          1          -    Covered              
+        bin wr_to_wr                                       63          1          -    Covered              
+        bin rd_to_rd                                       63          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /apb_env_pkg/apb_coverage/apb_cg                 56.00%        100          -    Uncovered            
+    covered/total bins:                                    10         17          -                      
+    missing/total bins:                                     7         17          -                      
+    % Hit:                                             58.82%        100          -                      
+    Coverpoint cp_op                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_addr                                 80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+    Coverpoint cp_wdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+    Coverpoint cp_rdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+    Coverpoint cp_order_operation                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/apb_env_pkg::apb_coverage::apb_cg  
+                                                       56.00%        100          -    Uncovered            
+    covered/total bins:                                    10         17          -                      
+    missing/total bins:                                     7         17          -                      
+    % Hit:                                             58.82%        100          -                      
+    Coverpoint cp_op                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write                                         164          1          -    Covered              
+        bin read                                          164          1          -    Covered              
+    Coverpoint cp_addr                                 80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin First_address                                   2          1          -    Covered              
+        bin Low_address                                    68          1          -    Covered              
+        bin Medium_address                                154          1          -    Covered              
+        bin High_address                                  104          1          -    Covered              
+        bin Last_address                                    0          1          -    ZERO                 
+    Coverpoint cp_wdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          4          -                      
+        missing/total bins:                                 4          4          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin all_zeros                                       0          1          -    ZERO                 
+        bin all_ones                                        0          1          -    ZERO                 
+        bin alt_AA                                          0          1          -    ZERO                 
+        bin alt_55                                          0          1          -    ZERO                 
+        default bin others                                164                     -    Occurred             
+    Coverpoint cp_rdata                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin all_zeros                                       0          1          -    ZERO                 
+        bin all_ones                                        0          1          -    ZERO                 
+        default bin others                                164                     -    Occurred             
+    Coverpoint cp_order_operation                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin wr_to_rd                                      101          1          -    Covered              
+        bin rd_to_wr                                       99          1          -    Covered              
+        bin wr_to_wr                                       63          1          -    Covered              
+        bin rd_to_rd                                       63          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 56.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 56.00%
+
