@@ -114,13 +114,7 @@ Coverage databases and reports for each test are in `logs/`:
 
 - `code_cov_report.txt`: code coverage
 - `func_cov_report.txt`: functional coverage
-- `cov_report.txt`: merged coverage report
-
-| Metric | Result |
-|--------|--------|
-| Tests passed | _add here_ |
-| Code coverage | _add here_ |
-| Functional coverage | _add here_ |
+- `cov_report.txt`: merged coverage repor
 
 ## Tools
 
